@@ -1,3 +1,4 @@
+  <!DOCTYPE html>
 <html>
     <head>
       <!--Import Google Icon Font-->
@@ -15,5 +16,6 @@
       Home
     {/if}
     </title>
+    
 </head>
 <body>

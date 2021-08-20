@@ -1,7 +1,7 @@
 {include file="Cabeceras/Header.tpl"}
 
 <div>
-<h1 align="center">INGRESO</h1>
+ <h1 align="center">INGRESO</h1>
 </div>
 
 <div class="row " align="center">
@@ -28,7 +28,6 @@
 </div>
 
 </form>
-</div>
+</div> 
 
-(include file-cabeceras/Footer.tpl")
-
+{include file="Cabeceras/Footer.tpl"}

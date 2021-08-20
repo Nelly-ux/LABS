@@ -1,5 +1,5 @@
 <?php
-Class Home
+class Home
 {
     public $smarty;
     public function __construct()
@@ -9,7 +9,7 @@ Class Home
 
     public function Inicio()
     {
-       $this->smarty->assign('title','Login');
+       $this->smarty->assign('title','login');
        $this->smarty->display('Home.tpl');
         
     }
