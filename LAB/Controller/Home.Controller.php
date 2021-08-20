@@ -9,7 +9,8 @@ Class Home
 
     public function Inicio()
     {
-       $this->smarty->('Home.tpl');
+       $this->smarty->assign('title','Login');
+       $this->smarty->display('Home.tpl');
         
     }
 }
