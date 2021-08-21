@@ -1,5 +1,5 @@
 <?php
-class Home
+Class Home
 {
     public $smarty;
     public $con;

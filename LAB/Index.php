@@ -1,4 +1,5 @@
 <?php
+
 require_once('AutoLoad.php');
 
 if (isset($_GET['controller']) && isset($_GET['method']))
@@ -19,8 +20,9 @@ if (class_exists($controller) && method_exists($controller,$method))
 }
 else
 {
-    echo "clase no existe o el metodo incorrecto";
+    echo "La clase no existe o el metodo incorrecto";
 }
 
 ?>
+
 
